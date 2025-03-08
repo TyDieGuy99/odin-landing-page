@@ -1,4 +1,36 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: Roboto, serif, 'Times New Roman', Times;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 400px;
+}
+
+.objectsleft,
+.objectsright {
+    display: flex;
+    align-items: center;
+}
+
+.objectsleft {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.objectsright {
+    gap: 32px;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
