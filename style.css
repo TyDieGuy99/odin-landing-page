@@ -5,11 +5,16 @@ body {
     font-family: Roboto, serif, 'Times New Roman', Times;
 }
 
-.header {
+.header,
+.hero {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     padding: 0 400px;
+}
+
+.header {
+    padding-bottom: 64px;
 }
 
 .objectsleft,
@@ -29,8 +34,34 @@ body {
     justify-content: space-evenly;
 }
 
-a {
+a,
+.hero,
+.herobutton {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    padding-bottom: 200px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.herotext {
+    flex-direction: column;
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 48px;
+    max-width: 300px;
+}
+
+.herobutton {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    height: 45px;
 }
